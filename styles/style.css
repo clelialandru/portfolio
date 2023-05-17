@@ -190,17 +190,17 @@ footer>a {
 
 .resultat {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 32% 32% 32%;
     column-gap: 4%;
     max-width: 120vh;
+    max-height: 25vh;
     margin-left: auto;
     margin-right: auto;
 }
 
 .resultat.games>.games,
-.resultat.websites>.websites,
-.resultat.videos>.videos,
-.resultat.others>.others {
+.resultat.website>.website,
+.resultat.other>.other {
     display: none;
 }
 
@@ -212,14 +212,13 @@ footer>a {
     padding: 1rem;
     background: #030303;
     color: white;
-    border: white solid;
-    box-shadow: 0 2px 20px white;
+    border: var(--clr1) solid;
     border-radius: 20px;
 }
 
 .filter div label input[type="checkbox"]:checked~span {
-    background: white;
-    color: black;
+    background: var(--clr1);
+    color: white;
 }
 
 .filter div label input[type="checkbox"] {
@@ -268,4 +267,23 @@ footer>a {
     height: 50%;
     background: rgba(255, 255, 255, .1);
 
+}
+
+.see_more:any-link {
+    color: black;
+    background-color: white;
+    padding: 2%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.see_more:hover {
+    color: black;
+    background-color: var(--clr1);
+    text-align: center;
+    transition: 0.4s;
 }
