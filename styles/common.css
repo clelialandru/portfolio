@@ -116,36 +116,54 @@ header>div {
 
 
 
-.lien_e:any-link{
-    color:white;
+.lien_e:any-link {
+    color: white;
 }
 
-.lien_e:hover{
+.lien_e:hover {
     color: var(--clr1);
     text-decoration: none;
     transition: 0.2s;
 }
 
-@media only screen and (max-width: 1000px){
 
-    .footer{
-        display: none;
-    }
+.footer, .footer_ind {
+    margin-top: 25%;
+    background-color: #121212;
+    padding: 2%;
+
 }
 
-@media only screen and (min-width: 1000px){
-    .footer {
-        margin-top: 15%;
-        background-color: #121212;
-        padding: 2%;
-    
-    }
-    
-    .footer>h2 {
-        margin-left: 5%;
-    }
-    
-    .footer>a {
-        margin-left: 5%;
-    }
+.footer>h2, .footer_ind>h2 {
+    margin-left: 5%;
+}
+
+.footer>a, .footer_ind>a {
+    margin-left: 5%;
+}
+
+.legende {
+    text-align: center;
+    opacity: 50%;
+}
+
+.texte {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.follow{
+    display: grid;
+    grid-template-columns: 20% 50%;
+    align-items: center;
+}
+
+.texte>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 5rem;
 }

@@ -9,12 +9,12 @@
     .avance,
     .inverse,
     .top_pad,
-    .arrow_me,
-    .footer {
+    .arrow_me, .footer {
         display: none;
     }
 
-    .top_p, .top_pa{
+    .top_p,
+    .top_pa {
         padding-top: 15%;
     }
 
@@ -103,9 +103,23 @@
         display: block;
         text-align: center;
     }
+
+    .footer {
+        margin-top: 70%;
+        background-color: #121212;
+        padding: 2%;
+    }
+
+    .footer>h2 {
+        margin-left: 5%;
+    }
+
+    .footer>a {
+        margin-left: 5%;
+    }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 489px) {
 
     .t1,
     .t2,
@@ -116,8 +130,7 @@
     .avance,
     .inverse,
     .top_pad,
-    .arrow_me,
-    .footer {
+    .arrow_me, .footer {
         display: none;
     }
 
@@ -149,4 +162,53 @@
     .grid_gal {
         display: block;
     }
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+    .t1,
+    .t2,
+    .txt,
+    .txti,
+    .avance>div,
+    .inverse>div,
+    .avance,
+    .inverse,
+    .top_pad,
+    .arrow_me, .footer {
+        display: none;
+    }
+
+    .top_p {
+        padding: 10%;
+    }
+
+    .resultat {
+        display: block;
+        max-width: 120vh;
+        max-height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resultat.games>.games,
+    .resultat.website>.website,
+    .resultat.other>.other {
+        display: none;
+    }
+
+    .filter {
+        display: block;
+        column-gap: .5%;
+        justify-content: center;
+        /*max-width: 28vh;*/
+    }
+
+    .grid_gal {
+        display: block;
+    }
+
 }

@@ -109,15 +109,16 @@
 }
 
 .ext_linka:any-link {
-    padding: .5% 1% .5% 1%;
+    padding: 25px;
     border-radius: 30px;
     color: black;
     background-color: white;
     text-decoration: none;
-    display: flex;
-    max-width: 12vh;
+    max-width: 20vh;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .ext_linka:hover{
