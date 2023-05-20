@@ -1,0 +1,152 @@
+@media only screen and (max-width: 799px) {
+
+    .t1,
+    .t2,
+    .txt,
+    .txti,
+    .avance>div,
+    .inverse>div,
+    .avance,
+    .inverse,
+    .top_pad,
+    .arrow_me,
+    .footer {
+        display: none;
+    }
+
+    .top_p {
+        padding: 10%;
+    }
+
+    .resultat {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 4%;
+        max-width: 120vh;
+        max-height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resultat.games>.games,
+    .resultat.website>.website,
+    .resultat.other>.other {
+        display: none;
+    }
+
+    .filter {
+        display: grid;
+        margin: 5% auto;
+        grid-template-columns: 50% 50%;
+        column-gap: .5%;
+        justify-content: center;
+        /*max-width: 28vh;*/
+    }
+
+    .photo {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-size: 2.5vh;
+    }
+
+    .photo>img {
+        border: white solid;
+        border-radius: 30px;
+        max-width: 70%;
+        margin-top: 10%;
+    }
+
+    .a_propos>h2 {
+        font-size: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-stroke: .5px white;
+        -webkit-text-fill-color: transparent;
+        font-style: italic;
+        margin-left: 2vh;
+    }
+
+
+    .a_propos>p {
+        margin-left: 4vh;
+        font-size: 2.5vh;
+    }
+
+    .a_propos {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2.5%;
+        max-width: 95%;
+        border: white solid;
+        border-radius: 30px;
+    }
+
+    .bold_color_ap {
+        font-weight: bold;
+        color: var(--clr1);
+        font-size: 3vh;
+    }
+
+    .grid_gal {
+        display: block;
+    }
+
+    .grid_link {
+        display: grid;
+        grid-template-columns: 15% 15% 15%;
+        justify-content: center;
+        column-gap: 1%;
+    }
+
+    .grid_li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .t1,
+    .t2,
+    .txt,
+    .txti,
+    .avance>div,
+    .inverse>div,
+    .avance,
+    .inverse,
+    .top_pad,
+    .arrow_me,
+    .footer {
+        display: none;
+    }
+
+    .top_p {
+        padding: 10%;
+    }
+
+    .resultat {
+        display: block;
+        max-width: 120vh;
+        max-height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resultat.games>.games,
+    .resultat.website>.website,
+    .resultat.other>.other {
+        display: none;
+    }
+
+    .filter {
+        display: block;
+        column-gap: .5%;
+        justify-content: center;
+        /*max-width: 28vh;*/
+    }
+
+    .grid_gal {
+        display: block;
+    }
+}
