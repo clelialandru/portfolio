@@ -1,7 +1,7 @@
 const projects = {
     "portfolio": {
         "nom": "Portfolio",
-        "desc": "Afin de montrer ce dont je suis capable en développement web, j'ai décidé de créer ce portfolio. Il est hébergé sur GitHub et est fait entièrement avec mes compétences de <span class=\"bold_color\">HTML, JS et CSS</span>. A partir d'une base de données en JavaScript, je peux récupérer les informations nécessaires pour générer des pages avec du JS afin de n'avoir qu'à créer qu'une seule page web pour tous les projets.",
+        "desc": "Afin de montrer ce dont je suis capable en développement web, j'ai décidé de créer ce portfolio. Il est hébergé sur GitHub et est fait entièrement avec mes compétences de <span class=\"bold_color\">HTML, JS et CSS</span>. A partir d'une base de données en JavaScript, je peux récupérer les informations nécessaires pour générer des pages avec du JS afin de n'avoir qu'à créer une seule page web pour tous les projets.",
         "lien": "",
         "img": "<h2 class = \"sous_titre\">Galerie</h2><div class = \"grid_gal\"><img src = \"../img/portfolio/index_capt.webp\" alt = \"Page d'accueil du site\" width = \"100%\"><img src = \"../img/portfolio/filtre_capt.webp\" alt = \"Filtrage des projets\" width = \"100%\"><img src = \"../img/portfolio/projet_capt.webp\" alt = \"Exemple d'une page de projet\" width = \"100%\"></div>",
         "link_res": "",
@@ -10,7 +10,7 @@ const projects = {
 
     "luxiemds": {
         "nom": "Light The Way • Luxiem Dating Sim",
-        "desc": "Au cours de l'été 2022 et jusqu'à fin avril 2023, je me suis portée volontaire au sein de l'équipe <span class=\"bold_color\">Simporiem Studios</span> en tant que programmeuse. Le jeu est un projet anglophone de jeu vidéo créé avec <span class=\"bold_color\">Ren'Py</span>, un moteur de jeu en langage Python. <br>Ce jeu a été pensé et initialement créé pour l'anniversaire de la mise au monde d'un groupe de talents de l'entreprise Nijisanji : Luxiem. <br>Il s'agit d'un jeu fait par des fans pour les fans.",
+        "desc": "Au cours de l'été 2022 et jusqu'à fin avril 2023, je me suis portée volontaire au sein de l'équipe <span class=\"bold_color\">Simporiem Studios</span> en tant que programmeuse. Il s'agit d'un projet anglophone de jeu vidéo créé avec <span class=\"bold_color\">Ren'Py</span>, un moteur de jeu basé sur du Python. <br>Ce jeu a été pensé et initialement créé pour le premier anniversaire d'un groupe de talents de l'entreprise Nijisanji : Luxiem. <br>Il s'agit d'un jeu fait par des fans pour les fans.",
         "lien": "<div class = \"grid_emb\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rXX2gnxzVCg\" frameborder=\"0\" allow=\" autoplay; picture-in-picture\" allowfullscreen></iframe><p>Clip musical promotionnel</p></div>",
         "img": "<h2 class = \"sous_titre\">Galerie</h2><div class = \"grid_gal\"><img src = \"../img/img_lds/promo_art.webp\" alt = \"Art Promotionnel de la version de démo du jeu\" width = \"100%\"><img src = \"../img/img_lds/screenshot0002.webp\" alt = \"Menu principal du jeu\" width = \"100%\"><img src = \"../img/img_lds/screenshot0119.webp\" alt = \"Screenshot de la galerie du jeu\" width = \"100%\"><img src = \"../img/img_lds/screenshot0159.webp\" alt = \"Exemple de dialogue du jeu\" width = \"100%\"></div><p class=\"legende\">Source : Simporiem Studios</p>",
         "link_res": "",
