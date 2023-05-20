@@ -114,17 +114,38 @@ header>div {
     background: white;
 }
 
-.footer {
-    margin-top: 15%;
-    background-color: #121212;
-    padding: 2%;
 
+
+.lien_e:any-link{
+    color:white;
 }
 
-.footer>h2 {
-    margin-left: 5%;
+.lien_e:hover{
+    color: var(--clr1);
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-.footer>a {
-    margin-left: 5%;
+@media only screen and (max-width: 1000px){
+
+    .footer{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .footer {
+        margin-top: 15%;
+        background-color: #121212;
+        padding: 2%;
+    
+    }
+    
+    .footer>h2 {
+        margin-left: 5%;
+    }
+    
+    .footer>a {
+        margin-left: 5%;
+    }
 }

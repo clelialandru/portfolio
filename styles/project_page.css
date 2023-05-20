@@ -108,18 +108,6 @@
     justify-content: center;
 }
 
-.lien_e:any-link{
-    color:white;
-}
-
-.lien_e:hover{
-    color: var(--clr1);
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-
-
 .ext_linka:any-link {
     padding: .5% 1% .5% 1%;
     border-radius: 30px;

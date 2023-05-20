@@ -14,8 +14,8 @@
         display: none;
     }
 
-    .top_p {
-        padding: 10%;
+    .top_p, .top_pa{
+        padding-top: 15%;
     }
 
     .resultat {
