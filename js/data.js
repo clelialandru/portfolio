@@ -1,9 +1,9 @@
 const projects = {
     "portfolio": {
-        "nom": "Portfolio",
+        "nom": "Création de mon portfolio",
         "desc": "Afin de montrer ce dont je suis capable en développement web, j'ai décidé de créer ce portfolio. Il est hébergé sur GitHub et est fait entièrement avec mes compétences de <span class=\"bold_color\">HTML, JS et CSS</span>. A partir d'une base de données en JavaScript, je peux récupérer les informations nécessaires pour générer des pages avec du JS afin de n'avoir qu'à créer une seule page web pour tous les projets.",
         "lien": "",
-        "img": "<h2 class = \"sous_titre\">Galerie</h2><div class = \"grid_gal\"><img src = \"../img/portfolio/index_capt.webp\" alt = \"Page d'accueil du site\" width = \"100%\"><img src = \"../img/portfolio/filtre_capt.webp\" alt = \"Filtrage des projets\" width = \"100%\"><img src = \"../img/portfolio/projet_capt.webp\" alt = \"Exemple d'une page de projet\" width = \"100%\"></div>",
+        "img": "",
         "link_res": "",
         "liens_ext": "",
     },

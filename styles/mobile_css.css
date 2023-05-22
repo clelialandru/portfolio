@@ -9,7 +9,10 @@
     .avance,
     .inverse,
     .top_pad,
-    .arrow_me, .footer {
+    .arrow_me,
+    .footer,
+    .footer_i,
+    .follow {
         display: none;
     }
 
@@ -105,7 +108,9 @@
     }
 
     .footer {
-        margin-top: 70%;
+        position: absolute;
+        width: 100%;
+        top: 105%;
         background-color: #121212;
         padding: 2%;
     }
@@ -117,6 +122,7 @@
     .footer>a {
         margin-left: 5%;
     }
+
 }
 
 @media only screen and (max-width: 489px) {
@@ -130,7 +136,10 @@
     .avance,
     .inverse,
     .top_pad,
-    .arrow_me, .footer {
+    .arrow_me,
+    .footer,
+    .footer_i,
+    .follow {
         display: none;
     }
 
@@ -178,7 +187,10 @@
     .avance,
     .inverse,
     .top_pad,
-    .arrow_me, .footer {
+    .arrow_me,
+    .footer,
+    .footer_i,
+    .follow {
         display: none;
     }
 
