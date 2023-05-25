@@ -92,7 +92,8 @@
     }
 
     .grid_gal {
-        display: block;
+        display: grid;
+        grid-template-columns: 100%;
     }
 
     .grid_link {
@@ -121,6 +122,23 @@
 
     .footer>a {
         margin-left: 5%;
+    }
+
+    .grid_emb {
+        display: block;
+        margin-left: -15%;
+    }
+
+    .grid_emb>p {
+        display: none;
+    }
+
+    .sous_titre {
+        font-size: .5rem;
+    }
+
+    .para_proj {
+        width: 50vh;
     }
 
 }
@@ -169,7 +187,12 @@
     }
 
     .grid_gal {
-        display: block;
+        display: block !important;
+    }
+
+    .grid_emb {
+        display: block !important;
+        margin-left: 5%;
     }
 
 }
@@ -220,14 +243,14 @@
     }
 
     .grid_gal {
-        display: block;
+        display: block !important;
     }
 
     .grid_emb {
-        margin-top: 5%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: block !important;
+        margin-left: 5%;
     }
+
+
 
 }
