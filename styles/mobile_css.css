@@ -223,4 +223,11 @@
         display: block;
     }
 
+    .grid_emb {
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
