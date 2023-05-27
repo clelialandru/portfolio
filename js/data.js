@@ -23,6 +23,6 @@ const projects = {
         "lien": "",
         "img": "<div class= \"sing_img\"><img src = \"../img/noria/ErgoBriante_PCetPT.webp\" width = \"70%\"></div><p class=\"legende\">Source : www.vehiculedufutur.com</p>",
         "link_res": "",
-        "liens_ext": "<a href = \"https://www.vehiculedufutur.com/2021-11-24-Les-filles-Osez-lindustrie-du-futur.html#:~:text=Ce%20projet%2C%20réalisé%20par%20le,numérique%20et%20de%20l%27industrie.\" class = \"ext_linka\" target = \"_blank\">Lien du projet</a>",
+        "liens_ext": "<a href = \"www.vehiculedufutur.com/2021-11-24-Les-filles-Osez-lindustrie-du-futur.html\" class = \"ext_linka\" target = \"_blank\">Lien du projet</a>",
     }
 }
